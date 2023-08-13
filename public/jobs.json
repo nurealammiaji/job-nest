@@ -5,7 +5,7 @@
       "type" : ["Remote", "Full Time"],
       "company": "Google LLC",
       "location": "San Francisco, CA",
-      "salary": "$90,000 - $110,000",
+      "salary": "$90,000",
       "description": "We are looking for a talented Software Developer to build innovative applications...",
       "requirements": [
         "Bachelor's degree in Computer Science or related field",
@@ -29,7 +29,7 @@
       "type" : ["Onsite", "Full Time"],
       "company": "Career Hub",
       "location": "Chicago, IL",
-      "salary": "$80,000 - $100,000",
+      "salary": "$80,000",
       "description": "Join our team as a Marketing Manager to lead strategic marketing campaigns...",
       "requirements": [
         "Bachelor's degree in Marketing or related field",
@@ -53,7 +53,7 @@
       "type" : ["Onsite", "Full Time"],
       "company": "Tesla",
       "location": "Seattle, WA",
-      "salary": "$100,000 - $120,000",
+      "salary": "$100,000",
       "description": "We are seeking a Data Scientist to analyze large datasets and derive insights...",
       "requirements": [
         "Master's or PhD in Data Science, Statistics, or related field",
@@ -77,7 +77,7 @@
       "type" : ["Remote", "Full Time"],
       "company": "Airbnb",
       "location": "New York, NY",
-      "salary": "$60,000 - $80,000",
+      "salary": "$60,000",
       "description": "Join our nursing team to provide high-quality patient care and support...",
       "requirements": [
         "Bachelor's degree in Nursing and valid RN license",
@@ -101,7 +101,7 @@
       "type" : ["Onsite", "Full Time"],
       "company": "Google LLC",
       "location": "London, UK",
-      "salary": "£40,000 - £50,000",
+      "salary": "£40,000",
       "description": "We're looking for a Financial Analyst to provide insights on financial data...",
       "requirements": [
         "Bachelor's degree in Finance, Economics, or related field",
@@ -125,7 +125,7 @@
       "type" : ["Remote", "Part Time"],
       "company": "Netflix",
       "location": "Toronto, Canada",
-      "salary": "$70,000 - $90,000",
+      "salary": "$70,000",
       "description": "Join our team as a UX Designer to create intuitive and user-friendly interfaces...",
       "requirements": [
         "Bachelor's degree in Design, HCI, or related field",
@@ -149,7 +149,7 @@
       "type" : ["Onsite", "Full Time"],
       "company": "Tesla",
       "location": "Dallas, TX",
-      "salary": "$50,000 - $60,000",
+      "salary": "$50,000",
       "description": "We're seeking a Sales Representative to drive sales and build client relationships...",
       "requirements": [
         "Bachelor's degree in Business or related field",
@@ -173,7 +173,7 @@
       "type" : ["Remote", "Part Time"],
       "company": "Career Hub",
       "location": "Miami, FL",
-      "salary": "$55,000 - $65,000",
+      "salary": "$55,000",
       "description": "We're hiring an HR Specialist to manage employee relations and recruitment...",
       "requirements": [
         "Bachelor's degree in Human Resources or related field",
@@ -197,7 +197,7 @@
       "type" : ["Onsite", "Full Time"],
       "company": "Airbnb",
       "location": "Houston, TX",
-      "salary": "$75,000 - $90,000",
+      "salary": "$75,000",
       "description": "Join our team as an Electrical Engineer to design and develop electronic systems...",
       "requirements": [
         "Bachelor's degree in Electrical Engineering or related field",
@@ -221,7 +221,7 @@
       "type" : ["Remote", "Part Time"],
       "company": "Netflix",
       "location": "Sydney, Australia",
-      "salary": "$45,000 - $55,000",
+      "salary": "$45,000",
       "description": "We're seeking a Content Writer to create engaging and informative content...",
       "requirements": [
         "Bachelor's degree in English, Journalism, or related field",
