@@ -1,5 +1,6 @@
 import Header from '../Header/Header';
 import Categories from '../Categories/Categories';
+import Jobs from '../Jobs/Jobs';
 
 const Home = () => {
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Header></Header>
             <Categories></Categories>
+            <Jobs></Jobs>
         </div>
     );
 };

@@ -14,7 +14,7 @@ const Categories = () => {
 
     return (
         <div className="p-10">
-            <br />
+            <br /><br />
             <div className="text-center">
                 <h3 className="text-3xl font-bold">Job Category List</h3>
                 <br />
@@ -26,7 +26,6 @@ const Categories = () => {
                     categories.map(category => <Category key={category.id} category={category}></Category>)
                 }
             </div>
-            <br />
         </div>
     );
 };

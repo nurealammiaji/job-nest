@@ -2,6 +2,7 @@
     {
       "job_id": "101",
       "title": "Software Developer",
+      "type" : ["Remote", "Full Time"],
       "company": "Google LLC",
       "location": "San Francisco, CA",
       "salary": "$90,000 - $110,000",
@@ -25,7 +26,8 @@
     {
       "job_id": "102",
       "title": "Marketing Manager",
-      "company": "Netflix",
+      "type" : ["Onsite", "Full Time"],
+      "company": "Career Hub",
       "location": "Chicago, IL",
       "salary": "$80,000 - $100,000",
       "description": "Join our team as a Marketing Manager to lead strategic marketing campaigns...",
@@ -38,16 +40,17 @@
       "experience": "5+ years of experience in marketing",
       "contact": {
         "name": "Sarah Mitchell",
-        "email": "sarah.mitchell@netflix.com",
+        "email": "sarah.mitchell@careerhub.com",
         "phone": "555-987-6543"
       },
-      "image": "../src/assets/images/netflix-4 1.png",
+      "image": "../src/assets/images/CareerHub.png",
       "posted_date": "2023-08-02",
       "deadline": "2023-09-02"
     },
     {
       "job_id": "103",
       "title": "Data Scientist",
+      "type" : ["Onsite", "Full Time"],
       "company": "Tesla",
       "location": "Seattle, WA",
       "salary": "$100,000 - $120,000",
@@ -71,7 +74,8 @@
     {
       "job_id": "104",
       "title": "Registered Nurse",
-      "company": "Google LLC",
+      "type" : ["Remote", "Full Time"],
+      "company": "Airbnb",
       "location": "New York, NY",
       "salary": "$60,000 - $80,000",
       "description": "Join our nursing team to provide high-quality patient care and support...",
@@ -84,17 +88,18 @@
       "experience": "1+ years of nursing experience",
       "contact": {
         "name": "Jessica Roberts",
-        "email": "jessica.roberts@google.com",
+        "email": "jessica.roberts@airbnb.com",
         "phone": "555-123-7890"
       },
-      "image": "../src/assets/images/google-1-1 1.png",
+      "image": "../src/assets/images/Group 10021.png",
       "posted_date": "2023-08-04",
       "deadline": "2023-09-04"
     },
     {
       "job_id": "105",
       "title": "Financial Analyst",
-      "company": "Airbnb",
+      "type" : ["Onsite", "Full Time"],
+      "company": "Google LLC",
       "location": "London, UK",
       "salary": "£40,000 - £50,000",
       "description": "We're looking for a Financial Analyst to provide insights on financial data...",
@@ -107,17 +112,18 @@
       "experience": "2+ years of experience in financial analysis",
       "contact": {
         "name": "David Thompson",
-        "email": "david.thompson@airbnb.com",
+        "email": "david.thompson@google.com",
         "phone": "+44 20 1234 5678"
       },
-      "image": "../src/assets/images/Group 10021.png",
+      "image": "../src/assets/images/google-1-1 1.png",
       "posted_date": "2023-08-05",
       "deadline": "2023-09-05"
     },
     {
       "job_id": "106",
       "title": "UX Designer",
-      "company": "DesignHub Agency",
+      "type" : ["Remote", "Part Time"],
+      "company": "Netflix",
       "location": "Toronto, Canada",
       "salary": "$70,000 - $90,000",
       "description": "Join our team as a UX Designer to create intuitive and user-friendly interfaces...",
@@ -130,17 +136,18 @@
       "experience": "3+ years of experience in UX design",
       "contact": {
         "name": "Sophia Lee",
-        "email": "sophia.lee@designhubagency.com",
+        "email": "sophia.lee@netflix.com",
         "phone": "555-555-1234"
       },
-      "image": "../src/assets/images/Vector.png",
+      "image": "../src/assets/images/netflix-4 1.png",
       "posted_date": "2023-08-06",
       "deadline": "2023-09-06"
     },
     {
       "job_id": "107",
       "title": "Sales Representative",
-      "company": "SalesPros Ltd.",
+      "type" : ["Onsite", "Full Time"],
+      "company": "Tesla",
       "location": "Dallas, TX",
       "salary": "$50,000 - $60,000",
       "description": "We're seeking a Sales Representative to drive sales and build client relationships...",
@@ -153,16 +160,17 @@
       "experience": "2+ years of experience in sales",
       "contact": {
         "name": "Robert Johnson",
-        "email": "robert.johnson@salespros.com",
+        "email": "robert.johnson@tesla.com",
         "phone": "555-678-9012"
       },
-      "image": "https://example.com/images/sales_representative.jpg",
+      "image": "../src/assets/images/tesla-9 1.png",
       "posted_date": "2023-08-07",
       "deadline": "2023-09-07"
     },
     {
       "job_id": "108",
       "title": "HR Specialist",
+      "type" : ["Remote", "Part Time"],
       "company": "Career Hub",
       "location": "Miami, FL",
       "salary": "$55,000 - $65,000",
@@ -186,7 +194,8 @@
     {
       "job_id": "109",
       "title": "Electrical Engineer",
-      "company": "Vector Inc.",
+      "type" : ["Onsite", "Full Time"],
+      "company": "Airbnb",
       "location": "Houston, TX",
       "salary": "$75,000 - $90,000",
       "description": "Join our team as an Electrical Engineer to design and develop electronic systems...",
@@ -199,16 +208,17 @@
       "experience": "3+ years of experience in electrical engineering",
       "contact": {
         "name": "Mark Turner",
-        "email": "mark.turner@vector.com",
+        "email": "mark.turner@airbnb.com",
         "phone": "555-234-5678"
       },
-      "image": "../src/assets/images/Vector-1.png",
+      "image": "../src/assets/images/Group 10021.png",
       "posted_date": "2023-08-09",
       "deadline": "2023-09-09"
     },
     {
       "job_id": "110",
       "title": "Content Writer",
+      "type" : ["Remote", "Part Time"],
       "company": "Netflix",
       "location": "Sydney, Australia",
       "salary": "$45,000 - $55,000",

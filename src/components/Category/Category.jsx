@@ -1,7 +1,7 @@
 const Category = ({category}) => {
 
     const {icon, job_quantity, name} = category;
-    console.log(category)
+
     return (
         <div className="p-5 bg-blue-50">
             <div>
