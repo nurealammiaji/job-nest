@@ -1,10 +1,12 @@
 import Header from '../Header/Header';
+import Categories from '../Categories/Categories';
 
 const Home = () => {
 
     return (
-        <div className='px-5'>
+        <div>
             <Header></Header>
+            <Categories></Categories>
         </div>
     );
 };

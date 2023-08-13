@@ -2,7 +2,7 @@ import image from "../../assets/images/P3OLGJ1 copy 1.png";
 
 const Header = () => {
     return (
-        <div className="flex items-center mt-5 bg-blue-50">
+        <div className="flex items-center gap-5 px-5 pt-5 bg-blue-50">
             <div>
                 <h1 className="text-5xl font-bold">One Step<br />Closer To Your<br /><span className="text-blue-500">Dream Job</span></h1>
                 <p className="my-5">Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>

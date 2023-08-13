@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <nav className="flex items-center justify-between p-5 bg-blue-50">
             <div>
-                <Link to="/"><h3 className="text-3xl font-bold">JobNest</h3></Link>
+                <Link to="/"><h3 className="text-4xl italic font-bold"><span className="text-blue-500">J</span>ob<span className="text-blue-500">N</span>est</h3></Link>
             </div>
             <div className="[&>*]:mx-2 [&>*:hover]:text-blue-500">
                 <Link to="/statistics">Statistics</Link>

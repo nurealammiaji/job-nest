@@ -5,7 +5,7 @@ import NavBar from './components/NavBar/NavBar';
 function App() {
 
   return (
-    <div className='bg-blue-50'>
+    <div>
       <NavBar></NavBar>
       <Outlet></Outlet>
     </div>
