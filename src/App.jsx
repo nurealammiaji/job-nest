@@ -1,13 +1,14 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-4xl font-bold text-center text-green-500">
-        Welcome to JobNest !!
-      </h1>
-    </>
+    <div className='bg-blue-50'>
+      <NavBar></NavBar>
+      <Outlet></Outlet>
+    </div>
   )
 }
 
