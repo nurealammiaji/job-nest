@@ -1,0 +1,232 @@
+[
+    {
+      "job_id": "101",
+      "title": "Software Developer",
+      "company": "Google LLC",
+      "location": "San Francisco, CA",
+      "salary": "$90,000 - $110,000",
+      "description": "We are looking for a talented Software Developer to build innovative applications...",
+      "requirements": [
+        "Bachelor's degree in Computer Science or related field",
+        "Proficiency in Java and experience with Spring Framework",
+        "Strong problem-solving skills and teamwork abilities"
+      ],
+      "educational_requirements": "Bachelor's degree in Computer Science or related field",
+      "experience": "3+ years of software development experience",
+      "contact": {
+        "name": "Alex Williams",
+        "email": "alex.williams@google.com",
+        "phone": "555-123-4567"
+      },
+      "image": "../src/assets/images/google-1-1 1.png",
+      "posted_date": "2023-08-01",
+      "deadline": "2023-09-01"
+    },
+    {
+      "job_id": "102",
+      "title": "Marketing Manager",
+      "company": "Netflix",
+      "location": "Chicago, IL",
+      "salary": "$80,000 - $100,000",
+      "description": "Join our team as a Marketing Manager to lead strategic marketing campaigns...",
+      "requirements": [
+        "Bachelor's degree in Marketing or related field",
+        "Experience in developing and executing marketing strategies",
+        "Excellent communication and leadership skills"
+      ],
+      "educational_requirements": "Bachelor's degree in Marketing or related field",
+      "experience": "5+ years of experience in marketing",
+      "contact": {
+        "name": "Sarah Mitchell",
+        "email": "sarah.mitchell@netflix.com",
+        "phone": "555-987-6543"
+      },
+      "image": "../src/assets/images/netflix-4 1.png",
+      "posted_date": "2023-08-02",
+      "deadline": "2023-09-02"
+    },
+    {
+      "job_id": "103",
+      "title": "Data Scientist",
+      "company": "Tesla",
+      "location": "Seattle, WA",
+      "salary": "$100,000 - $120,000",
+      "description": "We are seeking a Data Scientist to analyze large datasets and derive insights...",
+      "requirements": [
+        "Master's or PhD in Data Science, Statistics, or related field",
+        "Proficiency in Python and experience with machine learning libraries",
+        "Strong analytical and problem-solving skills"
+      ],
+      "educational_requirements": "Master's or PhD in Data Science, Statistics, or related field",
+      "experience": "2+ years of experience in data science",
+      "contact": {
+        "name": "Michael Davis",
+        "email": "michael.davis@tesla.com",
+        "phone": "555-555-5555"
+      },
+      "image": "../src/assets/images/tesla-9 1.png",
+      "posted_date": "2023-08-03",
+      "deadline": "2023-09-03"
+    },
+    {
+      "job_id": "104",
+      "title": "Registered Nurse",
+      "company": "Google LLC",
+      "location": "New York, NY",
+      "salary": "$60,000 - $80,000",
+      "description": "Join our nursing team to provide high-quality patient care and support...",
+      "requirements": [
+        "Bachelor's degree in Nursing and valid RN license",
+        "Experience in patient care and clinical procedures",
+        "Compassion and strong interpersonal skills"
+      ],
+      "educational_requirements": "Bachelor's degree in Nursing and valid RN license",
+      "experience": "1+ years of nursing experience",
+      "contact": {
+        "name": "Jessica Roberts",
+        "email": "jessica.roberts@google.com",
+        "phone": "555-123-7890"
+      },
+      "image": "../src/assets/images/google-1-1 1.png",
+      "posted_date": "2023-08-04",
+      "deadline": "2023-09-04"
+    },
+    {
+      "job_id": "105",
+      "title": "Financial Analyst",
+      "company": "Airbnb",
+      "location": "London, UK",
+      "salary": "£40,000 - £50,000",
+      "description": "We're looking for a Financial Analyst to provide insights on financial data...",
+      "requirements": [
+        "Bachelor's degree in Finance, Economics, or related field",
+        "Strong analytical skills and proficiency in Excel",
+        "Experience in financial analysis and reporting"
+      ],
+      "educational_requirements": "Bachelor's degree in Finance, Economics, or related field",
+      "experience": "2+ years of experience in financial analysis",
+      "contact": {
+        "name": "David Thompson",
+        "email": "david.thompson@airbnb.com",
+        "phone": "+44 20 1234 5678"
+      },
+      "image": "../src/assets/images/Group 10021.png",
+      "posted_date": "2023-08-05",
+      "deadline": "2023-09-05"
+    },
+    {
+      "job_id": "106",
+      "title": "UX Designer",
+      "company": "DesignHub Agency",
+      "location": "Toronto, Canada",
+      "salary": "$70,000 - $90,000",
+      "description": "Join our team as a UX Designer to create intuitive and user-friendly interfaces...",
+      "requirements": [
+        "Bachelor's degree in Design, HCI, or related field",
+        "Proficiency in UI/UX design tools",
+        "Strong portfolio showcasing design projects"
+      ],
+      "educational_requirements": "Bachelor's degree in Design, HCI, or related field",
+      "experience": "3+ years of experience in UX design",
+      "contact": {
+        "name": "Sophia Lee",
+        "email": "sophia.lee@designhubagency.com",
+        "phone": "555-555-1234"
+      },
+      "image": "../src/assets/images/Vector.png",
+      "posted_date": "2023-08-06",
+      "deadline": "2023-09-06"
+    },
+    {
+      "job_id": "107",
+      "title": "Sales Representative",
+      "company": "SalesPros Ltd.",
+      "location": "Dallas, TX",
+      "salary": "$50,000 - $60,000",
+      "description": "We're seeking a Sales Representative to drive sales and build client relationships...",
+      "requirements": [
+        "Bachelor's degree in Business or related field",
+        "Excellent communication and negotiation skills",
+        "Proven track record in sales"
+      ],
+      "educational_requirements": "Bachelor's degree in Business or related field",
+      "experience": "2+ years of experience in sales",
+      "contact": {
+        "name": "Robert Johnson",
+        "email": "robert.johnson@salespros.com",
+        "phone": "555-678-9012"
+      },
+      "image": "https://example.com/images/sales_representative.jpg",
+      "posted_date": "2023-08-07",
+      "deadline": "2023-09-07"
+    },
+    {
+      "job_id": "108",
+      "title": "HR Specialist",
+      "company": "Career Hub",
+      "location": "Miami, FL",
+      "salary": "$55,000 - $65,000",
+      "description": "We're hiring an HR Specialist to manage employee relations and recruitment...",
+      "requirements": [
+        "Bachelor's degree in Human Resources or related field",
+        "Experience in HR processes and employee management",
+        "Strong organizational and communication skills"
+      ],
+      "educational_requirements": "Bachelor's degree in Human Resources or related field",
+      "experience": "2+ years of experience in HR",
+      "contact": {
+        "name": "Jennifer Adams",
+        "email": "jennifer.adams@careerhub.com",
+        "phone": "555-789-0123"
+      },
+      "image": "../src/assets/images/CareerHub.png",
+      "posted_date": "2023-08-08",
+      "deadline": "2023-09-08"
+    },
+    {
+      "job_id": "109",
+      "title": "Electrical Engineer",
+      "company": "Vector Inc.",
+      "location": "Houston, TX",
+      "salary": "$75,000 - $90,000",
+      "description": "Join our team as an Electrical Engineer to design and develop electronic systems...",
+      "requirements": [
+        "Bachelor's degree in Electrical Engineering or related field",
+        "Proficiency in circuit design and simulation software",
+        "Experience in designing electronic components"
+      ],
+      "educational_requirements": "Bachelor's degree in Electrical Engineering or related field",
+      "experience": "3+ years of experience in electrical engineering",
+      "contact": {
+        "name": "Mark Turner",
+        "email": "mark.turner@vector.com",
+        "phone": "555-234-5678"
+      },
+      "image": "../src/assets/images/Vector-1.png",
+      "posted_date": "2023-08-09",
+      "deadline": "2023-09-09"
+    },
+    {
+      "job_id": "110",
+      "title": "Content Writer",
+      "company": "Netflix",
+      "location": "Sydney, Australia",
+      "salary": "$45,000 - $55,000",
+      "description": "We're seeking a Content Writer to create engaging and informative content...",
+      "requirements": [
+        "Bachelor's degree in English, Journalism, or related field",
+        "Excellent writing and editing skills",
+        "Experience in creating content for various platforms"
+      ],
+      "educational_requirements": "Bachelor's degree in English, Journalism, or related field",
+      "experience": "1+ years of experience in content writing",
+      "contact": {
+        "name": "Olivia Smith",
+        "email": "olivia.smith@netflix.com",
+        "phone": "+61 2 1234 5678"
+      },
+      "image": "../src/assets/images/netflix-4 1.png",
+      "posted_date": "2023-08-10",
+      "deadline": "2023-09-10"
+    }
+]

@@ -1,8 +1,9 @@
-# React + Vite
+# Job Nest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to JobNest. This is a job searching website.
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Easy to use.
+- Clean user interface.
+- Mobile Responsive.
