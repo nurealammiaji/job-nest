@@ -1,12 +1,17 @@
 import { useLoaderData } from "react-router-dom";
 import vector from "../../../public/assets/images/Vector.png"
+import { addToDb } from "../../fakedb";
 
 const JobDetails = () => {
 
     const job = useLoaderData();
-    console.log(job);
 
-    const {title, description, educational_requirements, requirements, experience, salary, contact, location} = job;
+    const {job_id, title, description, educational_requirements, requirements, experience, salary, contact, location} = job;
+
+    const applyNow = (id) => {
+        addToDb(id);
+        console.log(id);
+    }
 
     return (
         <div>
@@ -42,7 +47,7 @@ const JobDetails = () => {
                         <p><span className="font-semibold">Address:</span> {location}</p>
                     </div>
                     <br />
-                    <div className="font-semibold text-center text-white bg-blue-500 rounded-md"><button className="px-24 py-2 md:px-28">Apply Now</button></div>
+                    <div className="font-semibold text-center text-white bg-blue-500 rounded-md"><button className="px-24 py-2 md:px-28" onClick={() => applyNow(job_id)}>Apply Now</button></div>
                 </div>
             </div>
         </div>

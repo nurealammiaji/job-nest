@@ -7,6 +7,7 @@ const NavBar = () => {
                 <Link to="/"><h3 className="text-4xl italic font-bold"><span className="text-blue-500">J</span>ob<span className="text-blue-500">N</span>est</h3></Link>
             </div>
             <div className="[&>*]:mx-2 [&>*:hover]:text-blue-500">
+                <Link to="/">Home</Link>
                 <Link to="/statistics">Statistics</Link>
                 <Link to="/applied-jobs">Applied Jobs</Link>
                 <Link to="/blog">Blog</Link>
