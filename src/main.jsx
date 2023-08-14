@@ -9,6 +9,7 @@ import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import JobDetails from './components/JobDetails/JobDetails.jsx';
+import detailsLoader from './detailsLoader.js';
 
 const router = createBrowserRouter([
   {
@@ -34,8 +35,8 @@ const router = createBrowserRouter([
       },
       {
         path: "job/:id",
-        element: <JobDetails></JobDetails>
-        // loader: async () => fetch("")
+        element: <JobDetails></JobDetails>,
+        loader: ({params}) => detailsLoader(params.id)
       }
     ]
   }

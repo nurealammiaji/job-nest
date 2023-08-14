@@ -16,10 +16,6 @@ const Jobs = () => {
         setVisible((prevValue) => prevValue + 2)
     }
 
-    const viewDetails = (job) => {
-        console.log(job);
-    }
-
     return (
         <div className="p-10">
             <br />
@@ -29,9 +25,9 @@ const Jobs = () => {
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
             <br />
-            <div className="grid md:grid-cols-2 gap-5">
+            <div className="grid gap-5 md:grid-cols-2">
                 {
-                    jobs.slice(0, visible).map(job => <Job key={job.job_id} job={job} viewDetails={viewDetails}></Job>)
+                    jobs.slice(0, visible).map(job => <Job key={job.job_id} job={job}></Job>)
                 }
             </div>
             <br /><br />
