@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router-dom";
-
+import vector from "../../../public/assets/images/Vector.png"
 
 const JobDetails = () => {
 
@@ -10,10 +10,13 @@ const JobDetails = () => {
 
     return (
         <div>
-            <div className="text-center bg-blue-50">
-                <h3 className="text-3xl">Job Details</h3>
+            <div className="bg-blue-50">
+                <br /><br />
+                <h3 className="ml-5 text-3xl font-bold md:ml-0 md:text-center">Job Details</h3>
+                <br />
+                <img className="w-4/12 mt-10 md:mt-0 md:w-2/12" src={vector} alt="" />
             </div>
-            <div className="grid p-10 md:grid-cols-2">
+            <div className="p-10 md:flex md:gap-5">
                 <div>
                     <p><span className="font-semibold">Job Description:</span> {description}</p>
                     <br />
@@ -25,7 +28,7 @@ const JobDetails = () => {
                     <p><span className="font-semibold">Experience:</span></p>
                     <p>{experience}</p>
                 </div>
-                <div>
+                <div className="w-auto mt-10 md:w-8/12 md:mt-0">
                     <div className="p-5 rounded-md bg-blue-50">
                         <h3 className="text-xl font-semibold">Job Details</h3>
                         <hr className="mt-2 mb-4" />
@@ -39,7 +42,7 @@ const JobDetails = () => {
                         <p><span className="font-semibold">Address:</span> {location}</p>
                     </div>
                     <br />
-                    <button className="px-48 py-2 font-semibold text-white bg-blue-500 rounded-md">Apply Now</button>
+                    <div className="font-semibold text-center text-white bg-blue-500 rounded-md"><button className="px-24 py-2 md:px-28">Apply Now</button></div>
                 </div>
             </div>
         </div>
