@@ -19,7 +19,7 @@
         "email": "alex.williams@google.com",
         "phone": "555-123-4567"
       },
-      "image": "../src/assets/images/google-1-1 1.png",
+      "image": "./assets/images/google-1-1 1.png",
       "posted_date": "2023-08-01",
       "deadline": "2023-09-01"
     },
@@ -43,7 +43,7 @@
         "email": "sarah.mitchell@careerhub.com",
         "phone": "555-987-6543"
       },
-      "image": "../src/assets/images/CareerHub.png",
+      "image": "./assets/images/CareerHub.png",
       "posted_date": "2023-08-02",
       "deadline": "2023-09-02"
     },
@@ -67,7 +67,7 @@
         "email": "michael.davis@tesla.com",
         "phone": "555-555-5555"
       },
-      "image": "../src/assets/images/tesla-9 1.png",
+      "image": "./assets/images/tesla-9 1.png",
       "posted_date": "2023-08-03",
       "deadline": "2023-09-03"
     },
@@ -91,7 +91,7 @@
         "email": "jessica.roberts@airbnb.com",
         "phone": "555-123-7890"
       },
-      "image": "../src/assets/images/Group 10021.png",
+      "image": "./assets/images/Group 10021.png",
       "posted_date": "2023-08-04",
       "deadline": "2023-09-04"
     },
@@ -115,7 +115,7 @@
         "email": "david.thompson@google.com",
         "phone": "+44 20 1234 5678"
       },
-      "image": "../src/assets/images/google-1-1 1.png",
+      "image": "./assets/images/google-1-1 1.png",
       "posted_date": "2023-08-05",
       "deadline": "2023-09-05"
     },
@@ -139,7 +139,7 @@
         "email": "sophia.lee@netflix.com",
         "phone": "555-555-1234"
       },
-      "image": "../src/assets/images/netflix-4 1.png",
+      "image": "./assets/images/netflix-4 1.png",
       "posted_date": "2023-08-06",
       "deadline": "2023-09-06"
     },
@@ -163,7 +163,7 @@
         "email": "robert.johnson@tesla.com",
         "phone": "555-678-9012"
       },
-      "image": "../src/assets/images/tesla-9 1.png",
+      "image": "./assets/images/tesla-9 1.png",
       "posted_date": "2023-08-07",
       "deadline": "2023-09-07"
     },
@@ -187,7 +187,7 @@
         "email": "jennifer.adams@careerhub.com",
         "phone": "555-789-0123"
       },
-      "image": "../src/assets/images/CareerHub.png",
+      "image": "./assets/images/CareerHub.png",
       "posted_date": "2023-08-08",
       "deadline": "2023-09-08"
     },
@@ -211,7 +211,7 @@
         "email": "mark.turner@airbnb.com",
         "phone": "555-234-5678"
       },
-      "image": "../src/assets/images/Group 10021.png",
+      "image": "./assets/images/Group 10021.png",
       "posted_date": "2023-08-09",
       "deadline": "2023-09-09"
     },
@@ -235,7 +235,7 @@
         "email": "olivia.smith@netflix.com",
         "phone": "+61 2 1234 5678"
       },
-      "image": "../src/assets/images/netflix-4 1.png",
+      "image": "./assets/images/netflix-4 1.png",
       "posted_date": "2023-08-10",
       "deadline": "2023-09-10"
     }

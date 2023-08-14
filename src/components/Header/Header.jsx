@@ -1,4 +1,4 @@
-import image from "../../assets/images/P3OLGJ1 copy 1.png";
+import image from "./../../../public/assets/images/P3OLGJ1 copy 1.png";
 
 const Header = () => {
     return (
