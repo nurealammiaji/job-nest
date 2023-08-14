@@ -16,6 +16,10 @@ const Jobs = () => {
         setVisible((prevValue) => prevValue + 2)
     }
 
+    const viewDetails = (job) => {
+        console.log(job);
+    }
+
     return (
         <div className="p-10">
             <br />
@@ -27,7 +31,7 @@ const Jobs = () => {
             <br />
             <div className="grid grid-cols-2 gap-5">
                 {
-                    jobs.slice(0, visible).map(job => <Job key={job.job_id} job={job}></Job>)
+                    jobs.slice(0, visible).map(job => <Job key={job.job_id} job={job} viewDetails={viewDetails}></Job>)
                 }
             </div>
             <br /><br />

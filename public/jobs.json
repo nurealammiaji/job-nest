@@ -74,7 +74,7 @@
     {
       "job_id": "104",
       "title": "Registered Nurse",
-      "type" : ["Remote", "Full Time"],
+      "type" : ["Onsite", "Full Time"],
       "company": "Airbnb",
       "location": "New York, NY",
       "salary": "$60,000",
