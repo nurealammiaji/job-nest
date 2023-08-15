@@ -10,7 +10,7 @@ const Jobs = () => {
         fetch("jobs.json")
         .then(res => res.json())
         .then(data => setJobs(data))
-    })
+    }, [])
 
     const loadMore = () => {
         setVisible((prevValue) => prevValue + 2)

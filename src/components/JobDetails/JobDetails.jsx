@@ -1,5 +1,5 @@
 import { MapPinIcon, CurrencyDollarIcon, EnvelopeIcon, PhoneIcon, BriefcaseIcon } from '@heroicons/react/24/solid';
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import vector from "../../../public/assets/images/Vector.png"
 import { addToDb } from "../../fakedb";
 
@@ -63,7 +63,7 @@ const JobDetails = () => {
                         </div>
                     </div>
                     <br />
-                    <div className="font-semibold text-center text-white bg-blue-500 rounded-md"><button className="px-24 py-2 md:px-28" onClick={() => applyNow(job_id)}>Apply Now</button></div>
+                    <div className="font-semibold text-center text-white bg-blue-500 rounded-md"><a href="/applied-jobs"><button className="px-24 py-2 md:px-28" onClick={() => applyNow(job_id)}>Apply Now</button></a></div>
                 </div>
             </div>
         </div>
