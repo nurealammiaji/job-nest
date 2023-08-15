@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "The Art of Mindfulness",
+      "author": "Nure Alam Miaji",
+      "date": "2023-08-16",
+      "content": "In a fast-paced world, practicing mindfulness has become more important than ever. This blog post explores the benefits of mindfulness, techniques to incorporate it into your daily life, and its positive effects on mental well-being."
+    },
+    {
+      "id": 2,
+      "title": "Exploring the Wonders of the Amazon Rainforest",
+      "author": "Nure Alam Miaji",
+      "date": "2023-07-22",
+      "content": "Embark on a virtual journey through the mesmerizing Amazon rainforest. From its diverse flora and fauna to its indigenous cultures, this blog post takes you deep into one of the most biodiverse places on Earth."
+    },
+    {
+      "id": 3,
+      "title": "Mastering the Basics of Photography Composition",
+      "author": "Nure Alam Miaji",
+      "date": "2023-06-10",
+      "content": "Composition is a fundamental aspect of photography that can turn an ordinary photo into a stunning work of art. This post covers key composition techniques such as the rule of thirds, leading lines, and framing, offering practical tips for photographers of all skill levels."
+    },
+    {
+      "id": 4,
+      "title": "The Future of Space Travel: Exploring Beyond Our Solar System",
+      "author": "Nure Alam Miaji",
+      "date": "2023-09-02",
+      "content": "Humanity's fascination with space knows no bounds. This article delves into the latest advancements in space propulsion, interstellar travel theories, and the potential for future generations to venture beyond our solar system in search of new frontiers."
+    }
+  ]

@@ -1,6 +1,11 @@
+import { useLoaderData } from "react-router-dom";
 import vector from "../../../public/assets/images/Vector.png";
 
 const Blog = () => {
+
+    const posts =  useLoaderData();
+    console.log(posts);
+    
     return (
         <div>
             <div className="bg-blue-50">
