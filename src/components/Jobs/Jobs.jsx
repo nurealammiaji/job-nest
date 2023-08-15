@@ -13,7 +13,15 @@ const Jobs = () => {
     }, [])
 
     const loadMore = () => {
-        setVisible((prevValue) => prevValue + 2)
+        setVisible((prevValue) => prevValue + 6)
+    }
+
+    let seeAllButton;
+    if (visible === 4) {
+        seeAllButton = <button className="px-4 py-3 font-semibold text-white bg-blue-500 rounded-md" onClick={loadMore}>See All Jobs</button>
+    }
+    else {
+        seeAllButton = "";
     }
 
     return (
@@ -32,7 +40,7 @@ const Jobs = () => {
             </div>
             <br /><br />
             <div className='text-center'>
-                <button className="px-4 py-3 font-semibold text-white bg-blue-500 rounded-md" onClick={loadMore}>See All Jobs</button>
+                {seeAllButton}
             </div>
         </div>
     );
