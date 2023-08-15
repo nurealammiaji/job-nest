@@ -6,10 +6,10 @@ const NavBar = () => {
             <div>
                 <Link to="/"><h3 className="text-4xl italic font-bold"><span className="text-blue-500">J</span>ob<span className="text-blue-500">N</span>est</h3></Link>
             </div>
-            <div className="[&>*]:mx-2 [&>*:hover]:text-blue-500">
+            <div className="[&>*]:mx-2 [&>*]:mt-3 md:[&>*]:mt-0 [&>*:hover]:text-blue-500 flex flex-col md:flex-row">
                 <Link to="/">Home</Link>
                 <Link to="/statistics">Statistics</Link>
-                <Link to="/applied-jobs">Applied Jobs</Link>
+                <a href="/applied-jobs">Applied Jobs</a>
                 <Link to="/blog">Blog</Link>
             </div>
             <div>

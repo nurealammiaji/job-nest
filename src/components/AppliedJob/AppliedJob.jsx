@@ -5,8 +5,6 @@ const AppliedJob = ({job}) => {
 
     const {job_id, title, image, company, type, location, salary} = job;
 
-    console.log(job);
-
     return (
         <div className="items-center gap-5 p-5 border rounded-md md:flex">
             <div className="flex items-center h-40 p-10 bg-gray-100 rounded-md">
