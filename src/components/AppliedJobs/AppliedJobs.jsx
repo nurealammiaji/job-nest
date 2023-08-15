@@ -1,10 +1,17 @@
 import { useLoaderData } from "react-router-dom";
 import AppliedJob from '../AppliedJob/AppliedJob';
-import vector from "../../../public/assets/images/Vector.png"
+import vector from "../../../public/assets/images/Vector.png";
+import { useNavigate } from 'react-router';
 
 const AppliedJobs = () => {
 
     const jobs = useLoaderData();
+
+    const navigate = useNavigate();
+    
+    const refreshPage = () => {
+        navigate(0);
+    }
 
     return (
         <div>
@@ -17,7 +24,7 @@ const AppliedJobs = () => {
             <div className="px-5">
                 <div className="grid grid-cols-1 gap-5 p-10">
                     {
-                        jobs.map(job => <AppliedJob key={job.job_id} job={job}></AppliedJob>)
+                        jobs.map(job => <AppliedJob key={job.job_id} job={job}refreshPage={refreshPage}></AppliedJob>)
                     }
                 </div>
             </div>
