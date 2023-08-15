@@ -33,8 +33,9 @@ const AppliedJobs = () => {
             </div>
             <div className="px-5">
                 <br />
-                <div className="text-center [&>*]:m-5">
-                    <button className='p-2 px-5 font-semibold text-blue-500 border border-blue-500' onClick={onSiteFinder}>Onsite</button><button className='p-2 px-5 font-semibold text-blue-500 border border-blue-500' onClick={remoteFinder}>Remote</button>
+                <div className="text-center [&>*]:m-5 border m-10 bg-gray-100">
+                    <h4 className="py-2 text-2xl font-semibold text-gray-600 bg-blue-100 border rounded-md">Jobs Filter:</h4>
+                    <button className='p-2 px-5 font-semibold text-gray-500 bg-white border' onClick={onSiteFinder}>Onsite Jobs</button><button className='p-2 px-5 font-semibold text-gray-500 bg-white' onClick={remoteFinder}>Remote Jobs</button>
                 </div>
                 <div className="grid grid-cols-1 gap-5 p-10">
                     {
