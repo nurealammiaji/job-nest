@@ -16,7 +16,7 @@ const Blog = () => {
                 <img className="w-4/12 mt-10 md:mt-0 md:w-2/12" src={vector} alt="" />
             </div>
             <div className="p-10">
-                <div className="m-10">
+                <div className="md:m-10">
                     <div className="grid gap-5 md:grid-cols-2">
                         {
                             posts.map(post => <BlogPost key={post.id} post={post}></BlogPost>)
